@@ -119,3 +119,13 @@ footer{
     background: #f4f4f4;
     padding-top: 20px;
 }
+
+.section-title{
+    padding: 10px;
+    background: #0383c0;
+    color: #fff;
+}
+
+.section-title small{
+    color: #ccc !important;
+}
