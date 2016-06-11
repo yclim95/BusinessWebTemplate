@@ -8,19 +8,25 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 
-    <title>Starter Template for Bootstrap</title>
+    <title>Business Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!-- Import CSS -->
+    <link href = "css/animate.css" rel = "stylesheet">
+    <link href = "css/font-awesome.css" rel = "stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+
     <!-- Own CSS -->
     <link href="css/style.css" rel = "stylesheet">
+
 
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,20 +35,49 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand logo-nav" href="#"><img src = "img/logo.png"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+                <a href="index.html">Home <span>Main Page</span></a>
+            </li>
+            <li>
+                <a href="about.html">About<span>Who Are We?</span></a>
+            </li>
+            <li>
+                <a href="services.html">Services<span>What Do We Do?</span></a>
+            </li>
+            <li>
+                <a href="contact.html">Contact<span>Get In Touch</span></a>
+            </li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
    <!-- Section -->
-      <section>
+      <section class = "jumbotron">
+          <div class = "container">
+              <div class = "row">
+                  <div class = "col-md-7">
+                      <div class = "animated fadeInLeft">
+                          <h1>Clean Business Themes</h1>
+                           <p>Gave read use way make spot how nor. In daughter goodness an likewise oh consider at procured wandered. Songs words wrong by me hills heard timed.</p>
+                          <a class = "btn btn-primary btn-lg" href = "#">Find Out More</a>
+                      </div> <!-- ENDof animated -->
+
+                  </div> <!-- ENDof Col-md-7 -->
+
+                  <div class = "col-md-5">
+                      <div class = "animated fadeInUp">
+                          <img src = "img/logos.png">
+                      </div> <!-- ENDof animated -->
+
+                  </div> <!-- ENDof Col-md-5 -->
+
+              </div>
+          </div> <!-- ENDof Container -->
       </section>
 
 
@@ -51,6 +86,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-
+    <script src="js/wow.js"></script>
+    <!-- Start Wow -->
+    <script>
+        new WOW().init();
+    </script>
   </body>
 </html>
